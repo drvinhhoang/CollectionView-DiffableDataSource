@@ -14,3 +14,10 @@ extension Video: Hashable {
     }
     
 }
+
+extension Video: Equatable {
+    static func ==(lhs: Video, rhs: Video) -> Bool {
+        return lhs.url == rhs.url
+    }
+    
+}
