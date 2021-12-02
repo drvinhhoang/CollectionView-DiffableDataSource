@@ -32,7 +32,7 @@ final class TitleSupplementaryView: UICollectionReusableView {
         NSLayoutConstraint.activate([
             textLabel.leadingAnchor.constraint(equalTo: leadingAnchor, constant: inset),
             textLabel.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -inset),
-            textLabel.topAnchor.constraint(equalTo: bottomAnchor, constant: inset),
+            textLabel.topAnchor.constraint(equalTo: topAnchor, constant: inset),
             textLabel.bottomAnchor.constraint(equalTo: bottomAnchor, constant: -inset)
         ])
     }
